@@ -115,17 +115,16 @@ button {
   font-size: 1.3rem;
   font-weight: bold;
   color: #d6336c;
-  margin-top: 20px;
   padding: 12px 24px;
-  min-height: 1.4em;
-  position: fixed;      /* stays in place */
+  position: fixed;
+  bottom: 30px;           /* stick to bottom */
   left: 50%;
-  top: 75%;             /* below the card */
-  transform: translateX(-50%);
+  transform: translateX(-50%);  /* center horizontally */
   background: rgba(255, 255, 255, 0.95);
   border-radius: 16px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
   z-index: 20;
+  max-width: 90vw;        /* don't overflow on mobile */
 }
 
 #confettiCanvas {
