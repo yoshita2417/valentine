@@ -105,7 +105,8 @@ noBtn.addEventListener("mouseenter", () => {
 });
 
 yesBtn.addEventListener("click", () => {
-  message.textContent = "omg yayyy ilysm mwah mwah 💕";
+  message.textContent = "omg yayyy ilysm mwah mwah mwah hehehehhehee 💕";
+  message.style.display = "block";  // ← SHOW THE MESSAGE
   yesBtn.disabled = true;
   noBtn.disabled = true;
   yesBtn.style.cursor = "default";
