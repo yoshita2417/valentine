@@ -127,6 +127,7 @@ button {
   white-space: nowrap;       /* prevent wrapping */
   max-width: 85vw;
   pointer-events: none;      /* doesn't block clicks */
+  display: none;
 }
 
 #confettiCanvas {
